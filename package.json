@@ -1,0 +1,31 @@
+{
+  "name": "my-ai-cam",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CAM - Contextual AI Manager. Mobile-first orchestration for multi-AI routing.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "dev": "node --loader ts-node/esm --watch-extensions ts src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["ai", "orchestration", "routing", "mobile"],
+  "author": "mrvishwa929-web",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.6",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "supertest": "^6.3.3",
+    "@types/supertest": "^6.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
